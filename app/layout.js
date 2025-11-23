@@ -23,7 +23,7 @@ export const metadata = {
     siteName: "FitCoach",
     images: [
       {
-        url: "/og-hero.png", // <-- save your hero image as this
+        url: "https://fitcoach-sable.vercel.app/og-hero.png", // <-- save your hero image as this
         width: 1200,
         height: 630,
       },
@@ -35,7 +35,7 @@ export const metadata = {
     title: "FitCoach – Transform Your Body With 1-on-1 Personal Training",
     description:
       "Premium personal training website demo with transformations & programs.",
-    images: ["/og-hero.png"],
+    images: ["https://fitcoach-sable.vercel.app/og-hero.png"],
   },
 };
 

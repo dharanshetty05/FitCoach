@@ -11,7 +11,8 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata = {
+export const metadata = { 
+  metadataBase: new URL("https://fitcoach-sable.vercel.app"),
   title: "FitCoach – Transform Your Body With 1-on-1 Personal Training",
   description:
     "Home Workouts • Gym Coaching • Online Programs — Fat Loss | Muscle Gain | Strength Training",

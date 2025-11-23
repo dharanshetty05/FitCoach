@@ -12,16 +12,18 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "FitCoach – Personal Training Demo Website",
-  description: "Premium personal training website demo with fitness programs, transformations, and 1-on-1 coaching.",
+  title: "FitCoach – Transform Your Body With 1-on-1 Personal Training",
+  description:
+    "Home Workouts • Gym Coaching • Online Programs — Fat Loss | Muscle Gain | Strength Training",
   openGraph: {
-    title: "FitCoach – Personal Training Demo Website",
-    description: "Premium personal training website demo with fitness programs, transformations, and 1-on-1 coaching.",
-    url: "https://fitcoach-sable.vercel.app/",
+    title: "FitCoach – Transform Your Body With 1-on-1 Personal Training",
+    description:
+      "Home Workouts • Gym Coaching • Online Programs — Fat Loss | Muscle Gain | Strength Training",
+    url: "https://fitcoach-sable.vercel.app",
     siteName: "FitCoach",
     images: [
       {
-        url: "/og-hero.png",
+        url: "/og-hero.png", // <-- save your hero image as this
         width: 1200,
         height: 630,
       },
@@ -30,11 +32,13 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "FitCoach – Personal Training Demo Website",
-    description: "Premium personal training website demo with fitness programs, transformations, and coaching.",
+    title: "FitCoach – Transform Your Body With 1-on-1 Personal Training",
+    description:
+      "Premium personal training website demo with transformations & programs.",
     images: ["/og-hero.png"],
   },
 };
+
 
 
 export default function RootLayout({ children }) {
